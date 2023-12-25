@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.acordion {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.acordion p {
+    margin: 5px;
+}
+
+.acordion-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.acordion-header h1 {
+    font-size: x-large;
+}
+
+.acordion-header button {
+    border: none;
+    background-color: transparent;
+    font-size: larger;
+}
+

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(45deg, #242121, #3f3f3f);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.container {
+  width: 30%;
+  min-height: 600px;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.form-add-activity {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.input-wraper {
+  width: 80%;
+  position: relative;
+  border: 2px solid gray;
+  border-radius: 50px;
+}
+
+.input-wraper input {
+  width: 100%;
+  background-color: white;
+  border: none;
+  outline: none;
+  /* border: 2px solid red; */
+  border-radius: 50px;
+  padding: 1rem 2rem;
+}
+
+.input-wraper button {
+  border-radius: 0 50px 50px 0;  
+  /* border: 5px solid gray; */
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 15%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  cursor: pointer;
+  background-image: linear-gradient(45deg, rgb(170, 170, 170), white);
+} 
+
+.activities-wraper {
+  width: 90%;
+  margin: 15px auto;
+  padding: 15px;
+  background-image: linear-gradient(45deg, white, rgb(170, 170, 170));
+  border-radius: 13px;
+}
+
+.activity {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  background-image: linear-gradient(-45deg, #242121, #3f3f3f); /*3f3f3f 242121*/
+}
+
+.done {
+  text-decoration: line-through;
+}

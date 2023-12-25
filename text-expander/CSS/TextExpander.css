@@ -1,0 +1,20 @@
+.container {
+    background-color: rgb(204, 201, 201);
+}
+
+.not-active {
+    display: flex;
+    flex-direction: row;
+}
+
+.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-collapsed {
+    width: 200px; /* Ancho del contenedor */
+    white-space: nowrap; /* Evita que el texto se desplace a la siguiente línea */
+    overflow: hidden; /* Oculta el texto que se desborda */
+    text-overflow: ellipsis;
+}
